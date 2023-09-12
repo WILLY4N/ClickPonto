@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#504C4D"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <TextView
         android:id="@+id/txtTitulo"
@@ -52,6 +52,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtEntrada1" />
 
+    <TextView
+        android:id="@+id/txtSaida1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txt_saida1"
+        android:textAlignment="center"
+        android:textColor="#29A5A1"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTimeEntrada1" />
+
     <EditText
         android:id="@+id/editTimeSaida1"
         android:layout_width="wrap_content"
@@ -68,6 +81,19 @@
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSaida1" />
+
+    <TextView
+        android:id="@+id/txtEntrada2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txt_entrada2"
+        android:textAlignment="center"
+        android:textColor="#29A5A1"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTimeSaida1" />
 
     <EditText
         android:id="@+id/editTimeEntrada2"
@@ -86,6 +112,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtEntrada2" />
 
+    <TextView
+        android:id="@+id/txtSaida2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txt_saida2"
+        android:textAlignment="center"
+        android:textColor="#29A5A1"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTimeEntrada2" />
+
     <EditText
         android:id="@+id/editTimeSaida2"
         android:layout_width="wrap_content"
@@ -103,46 +143,6 @@
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSaida2" />
-
-    <TextView
-        android:id="@+id/txtSaida1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/txt_saida1"
-        android:textAlignment="center"
-        android:textColor="#29A5A1"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTimeEntrada1" />
-
-    <TextView
-        android:id="@+id/txtEntrada2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/txt_entrada2"
-        android:textAlignment="center"
-        android:textColor="#29A5A1"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTimeSaida1" />
-
-    <TextView
-        android:id="@+id/txtSaida2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/txt_saida2"
-        android:textAlignment="center"
-        android:textColor="#29A5A1"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTimeEntrada2" />
 
     <Button
         android:id="@+id/btnLimpar"

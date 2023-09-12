@@ -1,8 +1,10 @@
-package br.com.bitan.clickponto;
+package br.com.bitan.clickponto.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import br.com.bitan.clickponto.R;
 
 public class MainActivity extends AppCompatActivity {
 
