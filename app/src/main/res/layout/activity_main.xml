@@ -7,8 +7,7 @@
     android:background="#504C4D"
     tools:context=".view.MainActivity">
 
-    <TextView
-        android:id="@+id/txtTitulo"
+    <TextView android:id="@+id/txtTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/txt_titulo"
@@ -22,8 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.047" />
 
-    <TextView
-        android:id="@+id/txtEntrada1"
+    <TextView android:id="@+id/txtEntrada1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -35,8 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
 
-    <EditText
-        android:id="@+id/editTimeEntrada1"
+    <EditText android:id="@+id/editTimeEntrada1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
@@ -52,8 +49,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtEntrada1" />
 
-    <TextView
-        android:id="@+id/txtSaida1"
+    <TextView android:id="@+id/txtSaida1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -65,8 +61,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTimeEntrada1" />
 
-    <EditText
-        android:id="@+id/editTimeSaida1"
+    <EditText android:id="@+id/editTimeSaida1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
@@ -82,8 +77,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSaida1" />
 
-    <TextView
-        android:id="@+id/txtEntrada2"
+    <TextView android:id="@+id/txtEntrada2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -95,8 +89,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTimeSaida1" />
 
-    <EditText
-        android:id="@+id/editTimeEntrada2"
+    <EditText android:id="@+id/editTimeEntrada2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
@@ -112,8 +105,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtEntrada2" />
 
-    <TextView
-        android:id="@+id/txtSaida2"
+    <TextView android:id="@+id/txtSaida2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -126,8 +118,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTimeEntrada2" />
 
-    <EditText
-        android:id="@+id/editTimeSaida2"
+    <EditText android:id="@+id/editTimeSaida2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
@@ -144,8 +135,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSaida2" />
 
-    <Button
-        android:id="@+id/btnLimpar"
+    <Button android:id="@+id/btnLimpar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#29A5A1"
