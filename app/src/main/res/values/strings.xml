@@ -2,12 +2,10 @@
     <string name="app_name">ClickPonto</string>
     <string name="txt_titulo">Click Ponto</string>
     <string name="txt_entrada1">Entrada</string>
-    <string name="txt_hint_entrada1">00:00</string>
+    <string name="txt_hint">00:00</string>
     <string name="txt_saida1">Saída Almoço</string>
-    <string name="txt_hint_saida1">00:00</string>
     <string name="txt_entrada2">Retorno Almoço</string>
-    <string name="txt_hint_entrada2">00:00</string>
-    <string name="txt_saida2">Bóra!!!</string>
-    <string name="txt_hint_saida2">00:00</string>
+    <string name="txt_saida2">Partiu!!</string>
+    <string name="txt_button_calcular">Calcular</string>
     <string name="txt_button_limpar">Limpar</string>
 </resources>

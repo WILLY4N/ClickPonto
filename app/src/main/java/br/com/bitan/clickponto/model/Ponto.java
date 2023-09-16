@@ -1,17 +1,16 @@
 package br.com.bitan.clickponto.model;
 
-import android.text.format.Time;
-
 import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
-
 public class Ponto {
-    //atributos
-    //https://stackoverflow.com/questions/20326619/time-in-hhmm-format
-    private int jornada=480;
+    private final int jornada = 480;
     private LocalTime entrada1;
     private LocalTime saida1;
     private LocalTime entrada2;
+    private LocalTime saida2;
+
+    public int getJornada() {
+        return jornada;
+    }
 
     public LocalTime getEntrada1() {
         return entrada1;
@@ -45,10 +44,8 @@ public class Ponto {
         this.saida2 = saida2;
     }
 
-    private LocalTime saida2;
-
-        //Construtor
-    public Ponto(){
+    //Construtor
+    public Ponto() {
 
     }
 }
